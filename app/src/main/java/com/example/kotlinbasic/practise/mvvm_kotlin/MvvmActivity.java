@@ -12,7 +12,7 @@ import androidx.databinding.DataBindingUtil;
 import com.example.kotlinbasic.R;
 import com.example.kotlinbasic.databinding.ActivityMvvmBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class MvvmActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

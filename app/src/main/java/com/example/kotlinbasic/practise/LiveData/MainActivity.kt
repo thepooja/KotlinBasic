@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.kotlinbasic.R
 import kotlinx.android.synthetic.main.activity_main.*
 
-class CounterActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
