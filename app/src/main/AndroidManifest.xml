@@ -14,6 +14,9 @@
         android:theme="@style/Theme.KotlinBasic">
         <activity
             android:name="com.example.kotlinbasic.practise.SharedViewModel.ShareMainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.kotlinbasic.practise.Navigation.NavigationActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,11 +33,9 @@
         <activity
             android:name="com.androidbasic.Activity.ButtonClick"
             android:exported="false" />
-
         <activity
             android:name="com.example.kotlinbasic.practise.mvvm_retrofit.MovieActivity"
-            android:exported="true">
-                   </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
