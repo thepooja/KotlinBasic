@@ -11,12 +11,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.KotlinBasic">
+        <activity
+            android:name=".practise.Navigation.NavigationActivity"
+            android:exported="false" />
+
         <activity
             android:name="com.example.kotlinbasic.practise.SharedViewModel.ShareMainActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.kotlinbasic.practise.Navigation.NavigationActivity"
+            android:name="com.example.kotlinbasic.practise.Paging.PagingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,7 +40,7 @@
             android:exported="false" />
         <activity
             android:name="com.example.kotlinbasic.practise.mvvm_retrofit.MovieActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
