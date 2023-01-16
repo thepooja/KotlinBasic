@@ -57,3 +57,15 @@ fun main() {
     }
 
 }
+
+
+
+/// Notes --->
+
+/*
+* With --> If you want to operate on non-Null Object
+* let --> If you want to just execute lambda expression on nullable object and avoid nullpointer exception
+* run --> If you want to operate on nullable object , execute lambda expression and avoid NPE
+* apply --> If you want to intialise or configure object
+* also --> If you want to do some additonal object opetion or configuration
+* */
